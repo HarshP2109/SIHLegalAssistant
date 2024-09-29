@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get the API key from the environment variables
-key = os.getenv("GEMINI_API_KEY")
+key = st.secrets["gemini_key"]
 
 
 def get_conversational_chain():
