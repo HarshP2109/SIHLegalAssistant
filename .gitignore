@@ -1,0 +1,10 @@
+# ignore ennvironment files
+.env
+.env.*
+
+# ignore appenv files
+appenv
+appenv.*
+
+# ignore __pycache__ files
+__pycache__
